@@ -1,0 +1,29 @@
+.match-card {
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #e7ebf4;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 260px;
+    box-shadow: 10px 10px 24px #eaebef, -10px -10px 24px #ffffff;
+}
+
+.flags {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    align-items: center;
+}
+
+.flags img {
+    width: 80px;
+}
+
+.countreys-name {
+    margin: 20px 0;
+    font-size: 18px;
+    color: #343434;
+}

@@ -1,0 +1,32 @@
+file name: assignment-2 requerment
+author: ariyan shihab
+date: 19-07-2022;
+
+=====
+
+we can't not use any css framework
+
+requerments:
+1: every single page will be responsive in three divise size (desktop, tablet, mobile)
+
+2: create atleast 6 blog card for the blog/home page we can also create 9 card if we wnat
+
+3: use eliips in the hero section paragraph tag in mobile version
+
+4: must be add 3 social icons with the link in the footer section
+
+5: create a new file for upcoming match, add atleast 6 match card,
+
+
+======
+requerments for bonous mark:
+
+1: use a google font 
+
+2: make button that only appears in tablet version  under the blogs card section
+
+3: make the nav button active for visiting page 
+
+4: make any kind of animation or transition on banner section.
+
+5: cleane code and must be organised codebase

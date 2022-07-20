@@ -38,7 +38,7 @@ body {
 
 .container {
     /* 1024 px using accordibg to standard breackpoint for normal desktop divice */
-    max-width: 1024px;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
 }
@@ -127,7 +127,7 @@ body {
 .parent-grid-container {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    gap: 20px;
+    gap: 30px;
 }
 
 .card-grid-container {
@@ -185,14 +185,16 @@ body {
 
 .blog-card {
     background: var(--blog-card-background);
-    border: 1px solid #e7ebf4;
+    border: 1px solid #b2b3b5;
     border-radius: 6px;
     transition: 0.5s;
     cursor: pointer;
+    min-height: 350px;
+    box-shadow: 10px 10px 24px #eaebef, -10px -10px 24px #ffffff;
 }
 
 .blog-card:hover {
-    box-shadow: 10px 10px 24px #eaebef, -10px -10px 24px #ffffff;
+    border-bottom: 4px solid var(--buttounBG);
 }
 
 .blog-card:hover .blog-title {

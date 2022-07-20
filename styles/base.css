@@ -44,13 +44,31 @@ body {
 }
 
 .deafualt-button {
+    display: inline-block;
     padding: 16px 25px;
     color: var(--blog-card-background);
     font-weight: 600;
     font-size: 18px;
     background: var(--buttounBG);
     border-radius: 5px;
-    position: relative;
+    animation: scaling 1s 10 alternate;
+    transition: 0.4s;
+}
+
+.deafualt-button:hover {
+    color: #111;
+}
+
+@keyframes scaling {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.09);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
 
 .flex-box {
@@ -96,6 +114,7 @@ body {
 }
 
 .hero-sectoin-rigth img {
+    display: block;
     position: relative;
     bottom: -60px;
 }
@@ -138,11 +157,21 @@ body {
     text-align: center;
     font-weight: 700;
     border: 1px solid #353535;
+    transition: 0.4s;
+}
+
+.nav-links:hover {
+    color: var(--buttounBG);
 }
 
 .active {
     background: var(--buttounBG);
     color: var(--blog-card-background);
+    transition: 0.4s;
+}
+
+.active:hover {
+    color: #111;
 }
 
 
@@ -217,6 +246,8 @@ footer {
 footer h2 {
     color: var(--blog-card-background);
     font-size: 40px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.407);
 }
 
 .footer-menu {

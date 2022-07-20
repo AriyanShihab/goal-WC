@@ -10,4 +10,45 @@
     border: 1px solid #e7ebf4;
     min-height: 250px;
     box-shadow: 10px 10px 24px #eaebef, -10px -10px 24px #ffffff;
+    transition: 0.2s;
+}
+
+.hero-content-holder {
+    padding: 0;
+}
+
+.hero-sectoin-left {
+    padding: 30px;
+}
+
+.hero-sectoin-rigth img {
+    bottom: -105px;
+}
+
+.group-card:hover {
+    border-bottom: 4px solid #692ff1;
+}
+
+.group-name {
+    color: #692ff1;
+}
+
+.group-card ul li::before {
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Font Awesome 6 Free";
+    font-weight: 700;
+    content: "\f058";
+    font-size: 14px;
+    margin: 5px;
+    color: #692ff1;
+}
+
+@media screen and (max-width: 659px) {
+    .hero-sectoin-rigth img {
+        bottom: 0px;
+    }
 }

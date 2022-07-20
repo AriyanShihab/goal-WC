@@ -187,7 +187,16 @@ body {
     background: var(--blog-card-background);
     border: 1px solid #e7ebf4;
     border-radius: 6px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.blog-card:hover {
     box-shadow: 10px 10px 24px #eaebef, -10px -10px 24px #ffffff;
+}
+
+.blog-card:hover .blog-title {
+    color: var(--buttounBG);
 }
 
 .card-image img {
@@ -210,6 +219,7 @@ body {
     margin: 10px 0;
     font-size: 18px;
     font-weight: 500;
+    transition: 0.5s;
 }
 
 .blog-card-info {
@@ -274,6 +284,11 @@ footer h2 {
 }
 
 .footer-icon-menu li a i {
-    color: var(--buttounBG);
+    color: var(--blog-card-background);
     font-size: 25px;
+    transition: 0.5s;
+}
+
+.footer-icon-menu li a i:hover {
+    color: var(--buttounBG);
 }

@@ -1,6 +1,12 @@
+/* 320px — 480px: Mobile devices.
+481px — 768px: iPads, Tablets.
+769px — 1024px: Small screens, laptops.
+1025px — 1200px: Desktops, large screens. */
+
+
 /* for tab  */
 
-@media screen and (min-width: 660px) and (max-width: 870px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
     .hero-heading {
         font-size: 30px;
         line-height: 35px;
@@ -40,7 +46,7 @@
 
 /* for mobile */
 
-@media screen and (max-width: 659px) {
+@media screen and (max-width: 480px) {
     .container {
         padding: 10px;
     }

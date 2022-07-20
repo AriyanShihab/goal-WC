@@ -3,6 +3,7 @@
 @media screen and (min-width: 660px) and (max-width: 870px) {
     .hero-heading {
         font-size: 30px;
+        line-height: 35px;
     }
     .parent-grid-container {
         grid-template-columns: 1fr;

@@ -49,6 +49,10 @@
 @media screen and (max-width: 480px) {
     .container {
         padding: 10px;
+        margin: 20px;
+    }
+    .hero-section .container {
+        margin: 10px 5px;
     }
     .flex-box {
         flex-direction: column;
